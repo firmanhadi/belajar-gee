@@ -1,5 +1,16 @@
-book_filename: "template"
-delete_merged_file: true
+book_filename: "GEE"
+chapter_name: "Bab "
+repo: https://github.com/firmanhadi/belajar-gee
+output_dir: docs
+rmd_files: ["index.Rmd","01-intro.Rmd","02-literature.Rmd","03-method.Rmd","04-application.Rmd"]
+clean: [packages.bib, bookdown.bbl]
+new_session: yes
+
 language:
+  label:
+    fig: 'Gambar '
+    tab: 'Tabel '
+    eq: 'Rumus '
   ui:
-    chapter_name: "Chapter "
+    edit: Edit
+    chapter_name: ''

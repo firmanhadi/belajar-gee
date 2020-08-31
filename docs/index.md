@@ -1,7 +1,7 @@
 --- 
 title: "Belajar Mengolah Citra menggunakan Google Earth Engine"
 author: "Firman Hadi, Hartanto Sanjaya, Aslan, Iwan Setiawan dan Armaiky Yusmur"
-date: "`r Sys.Date()`"
+date: "2020-08-31"
 site: bookdown::bookdown_site
 documentclass: book
 bibliography: [book.bib, packages.bib]
@@ -16,7 +16,8 @@ This is a _sample_ book written in **Markdown**. You can use anything that Pando
 
 The **bookdown** package can be installed from CRAN or Github:
 
-```{r eval=FALSE}
+
+```r
 install.packages("bookdown")
 # or the development version
 # devtools::install_github("rstudio/bookdown")
@@ -26,9 +27,4 @@ Remember each Rmd file contains one and only one chapter, and a chapter is defin
 
 To compile this example to PDF, you need XeLaTeX. You are recommended to install TinyTeX (which includes XeLaTeX): <https://yihui.org/tinytex/>.
 
-```{r include=FALSE}
-# automatically create a bib database for R packages
-knitr::write_bib(c(
-  .packages(), 'bookdown', 'knitr', 'rmarkdown'
-), 'packages.bib')
-```
+
